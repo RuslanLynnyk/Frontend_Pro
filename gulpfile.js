@@ -12,7 +12,7 @@ function css() {
         .pipe(gulp.dest('./dist/css/'));
 }
 
-function js() {
+function js()  {
     return gulp.src('./js/*.js') 
         .pipe(concat('main.min.js')) 
         .pipe(uglify())
